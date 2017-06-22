@@ -1,0 +1,24 @@
+{
+  "name": "trainingproject",
+  "version": "1.0.0",
+  "description": "This repo provide setup steps to make a react JS project with webpack+npm.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack --watch",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ankit tyagi",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.15.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.5.1",
+    "webpack-dev-middleware": "^1.10.2"
+  }
+}
